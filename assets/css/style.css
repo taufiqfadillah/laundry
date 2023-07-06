@@ -2,6 +2,14 @@
 .white-bg {
   background: #ffffff;
 }
+.logo-image {
+  width: 250px; /* Ubah nilai width sesuai dengan ukuran yang diinginkan */
+  height: auto; /* Atur tinggi sesuai dengan perubahan proporsi */
+}
+.logo-footer {
+  width: 380px; /* Ubah nilai width sesuai dengan ukuran yang diinginkan */
+  height: auto; /* Atur tinggi sesuai dengan perubahan proporsi */
+}
 .gray-bg {
   background: #f5f9fb;
 }
@@ -1694,7 +1702,7 @@ hr {
   transition: 0.6s;
 }
 .preloader .preloader-img img {
-  max-width: 55px;
+  max-width: 100px;
 }
 .preloader .pere-text strong {
   font-weight: 800;
@@ -5921,5 +5929,38 @@ del {
   margin-top: 30px;
 }
 .switch-wrap {
+  margin-bottom: 10px;
+}
+/* slider */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu {
+  text-align: center;
+}
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item {
+  /*width:100%;*/
+}
+.portfolio-item .item {
+  /*width:303px;*/
+  float: left;
   margin-bottom: 10px;
 }
