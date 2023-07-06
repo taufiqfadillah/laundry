@@ -2150,6 +2150,36 @@ hr {
 .theme-color {
   color: #3fc5f0;
 }
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.main-menu {
+  padding-left: 40px;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.main-menu ul li a {
+  font-size: 12px;
+  padding: 33px 15px;
+}
+
+.header-btn1,
+.header-btn2 {
+  font-size: 12px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
