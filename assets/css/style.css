@@ -10,6 +10,10 @@
   width: 380px; /* Ubah nilai width sesuai dengan ukuran yang diinginkan */
   height: auto; /* Atur tinggi sesuai dengan perubahan proporsi */
 }
+.responsive-image img {
+  max-width: 100%;
+  height: auto;
+}
 .gray-bg {
   background: #f5f9fb;
 }
