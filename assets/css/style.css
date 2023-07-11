@@ -545,7 +545,7 @@ hr {
     display: none;
   }
   .logo-image {
-    width: 150px; /* Ubah nilai width sesuai dengan ukuran yang diinginkan */
+    width: 170px; /* Ubah nilai width sesuai dengan ukuran yang diinginkan */
     height: auto; /* Atur tinggi sesuai dengan perubahan proporsi */
   }
 }
@@ -1681,8 +1681,8 @@ hr {
   margin: 0 auto;
 }
 .preloader .preloader-circle {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   position: relative;
   border-style: solid;
   border-width: 1px;
@@ -1722,7 +1722,7 @@ hr {
   transition: 0.6s;
 }
 .preloader .preloader-img img {
-  max-width: 100px;
+  max-width: 150px;
 }
 .preloader .pere-text strong {
   font-weight: 800;
