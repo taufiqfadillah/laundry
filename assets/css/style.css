@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap');
 @media (max-width: 3400px) {
   .logo-image {
-  width: 250px;
-  height: auto;
-}
+    width: 250px;
+    height: auto;
+  }
 }
 @media (max-width: 1300px) {
   .logo-image {
-  width: 180px;
-  height: auto;
+    width: 180px;
+    height: auto;
+  }
 }
+#tentang-kami,
+#produk,
+#keunggulan,
+#dokumentasi,
+#testimoni,
+#kontak {
+  margin-top: 90px;
 }
 .white-bg {
   background: #ffffff;
@@ -2253,7 +2261,6 @@ hr {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  
 }
 @media only screen and (min-width: 1200px) and (max-width: 2000px) {
   .main-header .header-left .main-menu ul li a {
@@ -2269,20 +2276,20 @@ hr {
     padding: 27px 28px 21px 33px;
   }
   .logo-image {
-  width: 150px;
-  height: auto;
-}
-.header-right .header-btn1 img {
-  width: 30px; /* Atur lebar ikon sesuai dengan kebutuhan */
-  height: auto; /* Atur tinggi ikon secara proporsional */
-}
+    width: 150px;
+    height: auto;
+  }
+  .header-right .header-btn1 img {
+    width: 30px; /* Atur lebar ikon sesuai dengan kebutuhan */
+    height: auto; /* Atur tinggi ikon secara proporsional */
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .main-header .header-left .main-menu ul li a {
     padding: 33px 9px !important;
     height: auto;
     font-size: 12px;
-    }
+  }
   .header-btn1 {
     font-size: 9px;
   }
@@ -2291,10 +2298,14 @@ hr {
     padding: 15px 8px 14px 11px;
   }
   .logo-image {
-  width: 120px;
-  height: auto;
-}
+    width: 120px;
+    height: auto;
   }
+}
+#navigation li a {
+  color: #000;
+}
+
 .main-header .header-left .main-menu ul li:hover > a {
   color: #3fc5f0;
 }
@@ -2357,6 +2368,7 @@ hr {
 }
 .header-area .header-sticky.sticky-bar {
   background: #fff;
+  height: 90px;
 }
 .header-area .header-sticky.sticky-bar .main-menu nav > ul > li > a {
   padding: 33px 21px;
@@ -3419,7 +3431,7 @@ hr {
   }
   .single-blog .tag:after {
     display: none;
-  }\
+  }
 }
 .single-blog .likes {
   margin-right: 16px;
